@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library>
+    <book category="Programming" id="100">
+        <author>Ranjith</author>
+        <isbn>342342</isbn>
+        <name>Java</name>
+        <price>1000</price>
+        <publisher>JBR</publisher>
+    </book>
+</library>
