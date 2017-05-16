@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <name>Anbu</name>
+    <address>Chennai</address>
+    <dob>1990-05-15</dob>
+    <phone>9600096000</phone>
+    <email>anbu@email.com</email>
+  </employee>
+  <employee>
+    <name>Bala</name>
+    <address>Hydrabad</address>
+    <dob>1989-01-04</dob>
+    <phone>9700097000</phone>
+    <email>bala@email.com</email>
+  </employee>
+  <employee>
+    <name>Chandru</name>
+    <address>Mumbai</address>
+    <dob>1995-11-10</dob>
+    <phone>9900099000</phone>
+    <email>chandru@email.com</email>
+  </employee>
+</employees>
