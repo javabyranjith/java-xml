@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:up="http://example.com/saxon-extension">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:emp="http://example.com/saxon-extension">
   <xsl:template match="/">
     <html>
       <body>
@@ -25,7 +25,7 @@
                 <xsl:value-of select="dob" />
               </td>
               <td>
-                <xsl:value-of select="up:upper(dob)" />
+                <xsl:value-of select="emp:ageCalc(dob)" />
               </td>
               <td>
                 <xsl:value-of select="phone" />

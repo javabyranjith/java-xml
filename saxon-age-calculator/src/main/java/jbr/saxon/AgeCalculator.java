@@ -21,7 +21,7 @@ public class AgeCalculator extends ExtensionFunctionDefinition {
 
 	@Override
 	public StructuredQName getFunctionQName() {
-		return new StructuredQName("up", "http://example.com/saxon-extension", "upper");
+		return new StructuredQName("emp", "http://example.com/saxon-extension", "ageCalc");
 	}
 
 	@Override
