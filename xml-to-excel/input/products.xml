@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product category="electronics">
+		<id>1000</id>
+		<name>Samsung Galaxy</name>
+		<manufacturer>Samsung</manufacturer>
+		<model>A8</model>
+		<price>10000</price>
+	</product>
+
+	<product category="home">
+		<id>2000</id>
+		<name>Mixer Grinder</name>
+		<manufacturer>Preethi</manufacturer>
+		<model>B9</model>
+		<price>5000</price>
+	</product>
+
+	<product category="electrical">
+		<id>3000</id>
+		<name>Fan</name>
+		<manufacturer>Usha</manufacturer>
+		<model>MM8</model>
+		<price>2000</price>
+	</product>
+</products>

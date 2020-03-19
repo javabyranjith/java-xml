@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.0'
+    compile group: 'org.apache.poi', name: 'poi-ooxml-schemas', version: '4.1.0'
+    compile group: 'org.jdom', name: 'jdom2', version: '2.0.6'
+	  compile group: 'jaxen', name: 'jaxen', version: '1.2.0'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
