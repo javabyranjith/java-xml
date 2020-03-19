@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>jbr</groupId>
-  <artifactId>saxon-age-calculator</artifactId>
+  <groupId>jbr.javaxml</groupId>
+  <artifactId>javaxml-xslt</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
 
-  <name>saxon-age-calculator</name>
+  <name>javaxml-xslt</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -16,15 +16,25 @@
 
   <dependencies>
     <dependency>
-      <groupId>net.sf.saxon</groupId>
-      <artifactId>Saxon-HE</artifactId>
-      <version>9.7.0-18</version>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  	<build>
+    <finalName>javaxml-xslt</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
