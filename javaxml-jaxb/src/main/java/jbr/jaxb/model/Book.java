@@ -1,77 +1,77 @@
-package jbr.jaxbparser.model;
+package jbr.jaxb.model;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 
 public class Book {
-  private String _id;
-  private String _category;
-  private String _name;
-  private String _author;
-  private String _isbn;
-  private String _price;
-  private String _publisher;
+  private String id;
+  private String category;
+  private String name;
+  private String author;
+  private String isbn;
+  private String price;
+  private String publisher;
 
   public String getId() {
-    return _id;
+    return id;
   }
 
   @XmlAttribute
   public void setId(String id) {
-    this._id = id;
+    this.id = id;
   }
 
   public String getCategory() {
-    return _category;
+    return category;
   }
 
   @XmlAttribute
   public void setCategory(String category) {
-    this._category = category;
+    this.category = category;
   }
 
   public String getName() {
-    return _name;
+    return name;
   }
 
   @XmlElement
   public void setName(String name) {
-    this._name = name;
+    this.name = name;
   }
 
   public String getAuthor() {
-    return _author;
+    return author;
   }
 
   @XmlElement
   public void setAuthor(String author) {
-    this._author = author;
+    this.author = author;
   }
 
   public String getIsbn() {
-    return _isbn;
+    return isbn;
   }
 
   @XmlElement
   public void setIsbn(String isbn) {
-    this._isbn = isbn;
+    this.isbn = isbn;
   }
 
   public String getPrice() {
-    return _price;
+    return price;
   }
 
   @XmlElement
   public void setPrice(String price) {
-    this._price = price;
+    this.price = price;
   }
 
   public String getPublisher() {
-    return _publisher;
+    return publisher;
   }
 
   @XmlElement
   public void setPublisher(String publisher) {
-    this._publisher = publisher;
+    this.publisher = publisher;
   }
 }

@@ -1,4 +1,4 @@
-package jbr.jaxbparser.model;
+package jbr.jaxb.model;
 
 import java.util.List;
 

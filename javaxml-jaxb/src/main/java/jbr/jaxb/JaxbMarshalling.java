@@ -1,4 +1,4 @@
-package jbr.jaxbparser;
+package jbr.jaxb;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-import jbr.jaxbparser.model.Book;
-import jbr.jaxbparser.model.Library;
+import jbr.jaxb.model.Book;
+import jbr.jaxb.model.Library;
 
 public class JaxbMarshalling {
   public static void main(String[] args) {
