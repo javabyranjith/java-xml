@@ -1,4 +1,4 @@
-package jbr.jdom.parser;
+package jbr.jdom;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.jdom2.input.SAXBuilder;
 import org.jdom2.xpath.XPathExpression;
 import org.jdom2.xpath.XPathFactory;
 
-public class JDOMExampleStu {
+public class JdomStudentDemo {
   public static void main(String[] args) {
     SAXBuilder saxBuilder = new SAXBuilder();
 

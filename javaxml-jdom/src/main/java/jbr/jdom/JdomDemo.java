@@ -1,4 +1,4 @@
-package jbr.jdom.parser;
+package jbr.jdom;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
-public class JDOMExample {
+public class JdomDemo {
   public static void main(String[] args) {
     SAXBuilder saxBuilder = new SAXBuilder();
 
