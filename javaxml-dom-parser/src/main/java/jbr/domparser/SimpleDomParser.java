@@ -34,11 +34,7 @@ public class SimpleDomParser {
           System.out.println(element.getElementsByTagName("name").item(0).getTextContent());
         }
       }
-    } catch (ParserConfigurationException e) {
-      e.printStackTrace();
-    } catch (SAXException e) {
-      e.printStackTrace();
-    } catch (IOException e) {
+    } catch (ParserConfigurationException | SAXException | IOException e) {
       e.printStackTrace();
     }
   }
